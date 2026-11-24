@@ -1,0 +1,24 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+# Python environments
+.venv/
+venv/
+__pycache__/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Raw MEPS data
+data/
+*.dta
+*.zip
+
+# Credentials
+.env
+
+# Generated model and row-level outputs
+output/*.joblib
+output/test_predictions.csv
+EOF
